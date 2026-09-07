@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://repo.spring.io/milestone' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'SS03_HW03_IT214_DangKhanhAn_PTIT070'

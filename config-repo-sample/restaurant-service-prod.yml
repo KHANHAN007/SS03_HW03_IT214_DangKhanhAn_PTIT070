@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: restaurant-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/foodx_restaurant_prod
+    username: restaurant_user
+    password: restaurant_password
+
+restaurant:
+  menu-cache-ttl-seconds: 300
+  order-timeout-ms: 2500
+  feature:
+    promotion-enabled: true

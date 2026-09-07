@@ -1,0 +1,5 @@
+.gradle/
+build/
+rendered/
+rendered_check/
+.DS_Store
