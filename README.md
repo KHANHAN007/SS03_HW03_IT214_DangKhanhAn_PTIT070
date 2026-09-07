@@ -1,9 +1,5 @@
 # Bài 3: Xây dựng và sửa lỗi cấu hình Config Server
 
-**Sinh viên:** Dang Khanh An  
-**Lớp:** IT214 - PTIT070  
-**Repo:** SS03_HW03_IT214_DangKhanhAn_PTIT070
-
 ## 1. Mô tả lỗi
 
 FoodX dựng một Config Server để cấp cấu hình tập trung cho các service. Khi `restaurant-service` gọi tới Config Server thì nhận lỗi 500. Sau khi kiểm tra, có hai lỗi chính:
